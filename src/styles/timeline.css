@@ -1,0 +1,99 @@
+.vis-timeline {
+  border: none !important;
+  font-family: inherit;
+}
+
+.vis-item {
+  border-radius: 4px;
+  border-width: 0;
+}
+
+.vis-item.status-passed {
+  background-color: #22c55e;
+  color: white;
+}
+
+.vis-item.status-failed {
+  background-color: #ef4444;
+  color: white;
+}
+
+.vis-item.status-stopped {
+  background-color: #f59e0b;
+  color: white;
+}
+
+.vis-item.status-error {
+  background-color: #6b7280;
+  color: white;
+}
+
+.vis-item.status-default {
+  background-color: #94a3b8;
+  color: white;
+}
+
+.vis-item.vis-selected {
+  background-color: #3b82f6;
+  border-color: #2563eb;
+  color: white;
+  z-index: 2;
+}
+
+.vis-time-axis .vis-text {
+  color: #4b5563;
+}
+
+.vis-item .vis-item-content {
+  padding: 4px 8px;
+  font-size: 12px;
+}
+
+.timeline-tooltip {
+  border-collapse: collapse;
+  background: white;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.timeline-tooltip td {
+  padding: 4px 8px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.timeline-tooltip tr:last-child td {
+  border-bottom: none;
+}
+
+/* Annotation styles */
+.vis-item.vis-point {
+  border-width: 2px;
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+}
+
+.vis-item.annotation-deployment {
+  background-color: #3b82f6;
+  border-color: #2563eb;
+}
+
+.vis-item.annotation-incident {
+  background-color: #ef4444;
+  border-color: #dc2626;
+}
+
+.vis-item.annotation-maintenance {
+  background-color: #f59e0b;
+  border-color: #d97706;
+}
+
+.vis-item.annotation-release {
+  background-color: #22c55e;
+  border-color: #16a34a;
+}
+
+.vis-item.annotation-other {
+  background-color: #6b7280;
+  border-color: #4b5563;
+}
